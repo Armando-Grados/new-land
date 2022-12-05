@@ -29,18 +29,16 @@ const Banner = () => {
                 Descargar Gratis
               </button>
             </a>
-            
           </div>
           <div className="w-48">
-          <a href="">
-            <BtnSm
+            <a href="#">
+              <BtnSm
                 text={"Ver índice"}
                 bgColor="transparent"
                 textColor="white"
                 otherClasses="w-full"
               />
-          </a>
-            
+            </a>
           </div>
         </div>
       </div>
