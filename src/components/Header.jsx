@@ -7,7 +7,9 @@ const Header = () => {
       <div className="flex items-center">
         <img src="/images/logo.png" alt="logo" className="w-20 md:w-3/4" />
       </div>
-      <BtnSm text="Contáctanos" textColor="black" bgColor="white" />
+      <a href="#Formulario">
+        <BtnSm text="Contáctanos" textColor="black" bgColor="white" />
+      </a>
     </header>
   );
 };

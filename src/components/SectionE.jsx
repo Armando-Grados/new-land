@@ -13,15 +13,21 @@ const SectionE = () => {
           consciente.
         </p>
         <div className="space-y-4 flex flex-col items-center justify-center md:items-center md:justify-start md:flex-row md:space-y-0 md:space-x-4">
-          <BtnSm
-            bgColor="primary"
-            textColor="white"
-            text={"Envíanos tu CV"}
-            otherClasses="w-full md:w-fit"
-          />
-          <h4 className="font-medium text-center w-full md:w-fit">
-            Ver vacantes &#8594;
-          </h4>
+          <a href="https://neoconsulting.ai/bolsa-de-trabajo/#Conversemos">
+            <BtnSm
+              bgColor="primary"
+              textColor="white"
+              text={"Envíanos tu CV"}
+              otherClasses="w-full md:w-fit"
+            />
+          </a>
+          
+          <a href="https://neoconsulting.ai/bolsa-de-trabajo/">
+            <h4 className="font-medium text-center w-full md:w-fit">
+              Ver vacantes &#8594;
+            </h4>
+          </a>
+          
         </div>
       </div>
 

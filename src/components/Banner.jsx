@@ -21,19 +21,26 @@ const Banner = () => {
         </p>
         <div className="space-y-4 flex flex-col items-center justify-center md:items-start md:justify-start md:flex-row md:space-y-0 md:space-x-4">
           <div className="w-48">
-            <button
-              className={`px-4 py-2 outline rounded-md outline-1 bg-white text-primary font-bold w-full`}
-            >
-              Descargar Gratis
-            </button>
+            <a href="#Formulario">
+              <button
+                className={`px-4 py-2 outline rounded-md outline-1 bg-white text-primary font-bold w-full`}
+                href="#Formulario"
+              >
+                Descargar Gratis
+              </button>
+            </a>
+            
           </div>
           <div className="w-48">
+          <a href="">
             <BtnSm
-              text={"Ver índice"}
-              bgColor="transparent"
-              textColor="white"
-              otherClasses="w-full"
-            />
+                text={"Ver índice"}
+                bgColor="transparent"
+                textColor="white"
+                otherClasses="w-full"
+              />
+          </a>
+            
           </div>
         </div>
       </div>

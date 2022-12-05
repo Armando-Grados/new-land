@@ -9,7 +9,7 @@ const SectionC = () => {
       </div>
 
       <div className="space-y-8">
-        <h2 className="text-2xl font-medium text-center">
+        <h2 className="text-3xl font-bold text-center">
           Índice de contenidos
         </h2>
         <ul className="font-medium text-lg space-y-4">
@@ -71,12 +71,15 @@ const SectionC = () => {
           </li>
         </ul>
         <div className="space-y-4 flex flex-col items-center justify-center md:items-start md:justify-start md:flex-row md:space-y-0 md:space-x-4">
-          <BtnSm
-            text={"Descargar Gratis"}
-            textColor="white"
-            bgColor="primary"
-            otherClasses="w-48"
-          />
+          <a href="#Formulario">
+            <BtnSm
+              text={"Descargar Gratis"}
+              textColor="white"
+              bgColor="primary"
+              otherClasses="w-48"
+            />
+          </a>
+          
           <h4 className="font-medium w-32 text-center text-sm">
             +50 personas ya han descargado
           </h4>

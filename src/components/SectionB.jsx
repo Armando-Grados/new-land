@@ -49,12 +49,14 @@ const SectionB = () => {
               con talento internacional en sus equipos de trabajo.
             </p>
             <div className="space-y-4 flex flex-col items-center justify-center md:items-start md:justify-start md:flex-row md:space-y-0 md:space-x-4">
-              <BtnSm
-                textColor="white"
-                bgColor="primary"
-                text={"Descargar Gratis"}
-                otherClasses="w-48"
-              />
+              <a href="#Formulario">
+                <BtnSm
+                  textColor="white"
+                  bgColor="primary"
+                  text={"Descargar Gratis"}
+                  otherClasses="w-48"
+                />
+              </a>
               <h4 className="font-medium w-32 text-center">
                 +50 personas ya han descargado
               </h4>
@@ -85,12 +87,15 @@ const SectionB = () => {
               trabajen o su ocupación:
             </p>
             <div className="space-y-4 flex flex-col items-center justify-center md:items-start md:justify-start md:flex-row md:space-y-0 md:space-x-4">
-              <BtnSm
-                textColor="white"
-                bgColor="primary"
-                text={"Descargar Gratis"}
-                otherClasses="w-48"
-              />
+              <a href="#Formulario">
+                <BtnSm
+                  textColor="white"
+                  bgColor="primary"
+                  text={"Descargar Gratis"}
+                  otherClasses="w-48"
+                />
+              </a>
+              
               <h4 className="font-medium w-32 text-center text-sm">
                 +50 personas ya han descargado
               </h4>
